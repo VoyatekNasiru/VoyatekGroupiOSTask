@@ -13,6 +13,35 @@
 		2935D0E62D65FF720050430F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2935D0E42D65FF720050430F /* Main.storyboard */; };
 		2935D0E82D65FF740050430F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2935D0E72D65FF740050430F /* Assets.xcassets */; };
 		2935D0EB2D65FF740050430F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2935D0E92D65FF740050430F /* LaunchScreen.storyboard */; };
+		2935D0F32D6602CC0050430F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D0F22D6602CC0050430F /* HomeViewController.swift */; };
+		2935D0F52D6602D70050430F /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D0F42D6602D70050430F /* AddFoodViewController.swift */; };
+		2935D0F72D6603290050430F /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D0F62D6603290050430F /* DashboardViewController.swift */; };
+		2935D0F92D66039F0050430F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D0F82D66039F0050430F /* HomeView.swift */; };
+		2935D0FB2D6609FD0050430F /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D0FA2D6609FD0050430F /* GeneratorViewController.swift */; };
+		2935D0FD2D660A160050430F /* PlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D0FC2D660A160050430F /* PlannerViewController.swift */; };
+		2935D0FF2D660A410050430F /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D0FE2D660A410050430F /* FavoriteViewController.swift */; };
+		2935D1062D660D450050430F /* FetchCategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1052D660D450050430F /* FetchCategoriesResponse.swift */; };
+		2935D1092D660DD80050430F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1082D660DD80050430F /* NetworkManager.swift */; };
+		2935D10B2D660EA10050430F /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D10A2D660EA10050430F /* AppError.swift */; };
+		2935D10E2D6624E10050430F /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D10D2D6624E10050430F /* FoodCell.swift */; };
+		2935D1102D6625520050430F /* FetchFoodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D10F2D6625520050430F /* FetchFoodResponse.swift */; };
+		2935D1132D6637D60050430F /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1122D6637D60050430F /* BackButton.swift */; };
+		2935D1162D6638E40050430F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1152D6638E40050430F /* BaseViewController.swift */; };
+		2935D1182D6640670050430F /* NotificationsBell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1172D6640670050430F /* NotificationsBell.swift */; };
+		2935D11A2D6641000050430F /* DisplayPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1192D6641000050430F /* DisplayPicture.swift */; };
+		2935D11C2D6642C40050430F /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D11B2D6642C40050430F /* URLs.swift */; };
+		2935D11F2D6643670050430F /* FoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D11E2D6643670050430F /* FoodService.swift */; };
+		2935D1212D6643D00050430F /* FoodServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1202D6643D00050430F /* FoodServiceImpl.swift */; };
+		2935D1242D6644610050430F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1232D6644610050430F /* HomeViewModel.swift */; };
+		2935D1262D6662D30050430F /* PaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1252D6662D30050430F /* PaddedTextField.swift */; };
+		2935D1282D6675EC0050430F /* CategoriesDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1272D6675EC0050430F /* CategoriesDropDownView.swift */; };
+		2935D12A2D667C200050430F /* AddFoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1292D667C200050430F /* AddFoodViewModel.swift */; };
+		2935D12D2D668BB50050430F /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2935D12C2D668BB50050430F /* IQKeyboardManagerSwift */; };
+		2935D12F2D66A8ED0050430F /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D12E2D66A8ED0050430F /* AddFoodView.swift */; };
+		2935D13B2D6720200050430F /* TagInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D13A2D6720200050430F /* TagInputView.swift */; };
+		2935D1412D672F560050430F /* CreateFoodRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1402D672F560050430F /* CreateFoodRequest.swift */; };
+		2935D1442D6738470050430F /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1432D6738470050430F /* Data+Ext.swift */; };
+		2935D1462D6748D60050430F /* CreateFoodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D1452D6748D60050430F /* CreateFoodResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +53,34 @@
 		2935D0E72D65FF740050430F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2935D0EA2D65FF740050430F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2935D0EC2D65FF740050430F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2935D0F22D6602CC0050430F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2935D0F42D6602D70050430F /* AddFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
+		2935D0F62D6603290050430F /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		2935D0F82D66039F0050430F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2935D0FA2D6609FD0050430F /* GeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
+		2935D0FC2D660A160050430F /* PlannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerViewController.swift; sourceTree = "<group>"; };
+		2935D0FE2D660A410050430F /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		2935D1052D660D450050430F /* FetchCategoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCategoriesResponse.swift; sourceTree = "<group>"; };
+		2935D1082D660DD80050430F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2935D10A2D660EA10050430F /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		2935D10D2D6624E10050430F /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		2935D10F2D6625520050430F /* FetchFoodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchFoodResponse.swift; sourceTree = "<group>"; };
+		2935D1122D6637D60050430F /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		2935D1152D6638E40050430F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2935D1172D6640670050430F /* NotificationsBell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsBell.swift; sourceTree = "<group>"; };
+		2935D1192D6641000050430F /* DisplayPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPicture.swift; sourceTree = "<group>"; };
+		2935D11B2D6642C40050430F /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		2935D11E2D6643670050430F /* FoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodService.swift; sourceTree = "<group>"; };
+		2935D1202D6643D00050430F /* FoodServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodServiceImpl.swift; sourceTree = "<group>"; };
+		2935D1232D6644610050430F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2935D1252D6662D30050430F /* PaddedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedTextField.swift; sourceTree = "<group>"; };
+		2935D1272D6675EC0050430F /* CategoriesDropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDropDownView.swift; sourceTree = "<group>"; };
+		2935D1292D667C200050430F /* AddFoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewModel.swift; sourceTree = "<group>"; };
+		2935D12E2D66A8ED0050430F /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		2935D13A2D6720200050430F /* TagInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagInputView.swift; sourceTree = "<group>"; };
+		2935D1402D672F560050430F /* CreateFoodRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFoodRequest.swift; sourceTree = "<group>"; };
+		2935D1432D6738470050430F /* Data+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Ext.swift"; sourceTree = "<group>"; };
+		2935D1452D6748D60050430F /* CreateFoodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFoodResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2935D12D2D668BB50050430F /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +114,7 @@
 		2935D0DD2D65FF720050430F /* VoyatekGroupiOSTask */ = {
 			isa = PBXGroup;
 			children = (
+				2935D1002D660A670050430F /* Core */,
 				2935D0DE2D65FF720050430F /* AppDelegate.swift */,
 				2935D0E02D65FF720050430F /* SceneDelegate.swift */,
 				2935D0E22D65FF720050430F /* ViewController.swift */,
@@ -65,6 +124,193 @@
 				2935D0EC2D65FF740050430F /* Info.plist */,
 			);
 			path = VoyatekGroupiOSTask;
+			sourceTree = "<group>";
+		};
+		2935D1002D660A670050430F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2935D1012D660CF50050430F /* Presentation */,
+				2935D1112D6637C10050430F /* Components */,
+				2935D1142D66389F0050430F /* Helpers */,
+				2935D1022D660D010050430F /* Models */,
+				2935D11D2D6643530050430F /* Services */,
+				2935D1072D660DCA0050430F /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2935D1012D660CF50050430F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2935D13C2D672AFF0050430F /* Dashboard */,
+				2935D1302D66A9560050430F /* Home */,
+				2935D13D2D672B0B0050430F /* Generator */,
+				2935D1312D66A95E0050430F /* Add */,
+				2935D13E2D672B150050430F /* Favorites */,
+				2935D13F2D672B1F0050430F /* Planner */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2935D1022D660D010050430F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2935D1032D660D240050430F /* Request */,
+				2935D1042D660D2A0050430F /* Response */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2935D1032D660D240050430F /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				2935D1402D672F560050430F /* CreateFoodRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		2935D1042D660D2A0050430F /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				2935D1052D660D450050430F /* FetchCategoriesResponse.swift */,
+				2935D10F2D6625520050430F /* FetchFoodResponse.swift */,
+				2935D1452D6748D60050430F /* CreateFoodResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		2935D1072D660DCA0050430F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2935D1082D660DD80050430F /* NetworkManager.swift */,
+				2935D10A2D660EA10050430F /* AppError.swift */,
+				2935D11B2D6642C40050430F /* URLs.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2935D1112D6637C10050430F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2935D1122D6637D60050430F /* BackButton.swift */,
+				2935D1172D6640670050430F /* NotificationsBell.swift */,
+				2935D1192D6641000050430F /* DisplayPicture.swift */,
+				2935D1252D6662D30050430F /* PaddedTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2935D1142D66389F0050430F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2935D1422D67382D0050430F /* Extensions */,
+				2935D1152D6638E40050430F /* BaseViewController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2935D11D2D6643530050430F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2935D11E2D6643670050430F /* FoodService.swift */,
+				2935D1202D6643D00050430F /* FoodServiceImpl.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2935D1302D66A9560050430F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2935D1352D66A9850050430F /* Views */,
+				2935D1342D66A97B0050430F /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2935D1312D66A95E0050430F /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				2935D1332D66A96D0050430F /* ViewModel */,
+				2935D1322D66A9650050430F /* Views */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		2935D1322D66A9650050430F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2935D0F42D6602D70050430F /* AddFoodViewController.swift */,
+				2935D12E2D66A8ED0050430F /* AddFoodView.swift */,
+				2935D1272D6675EC0050430F /* CategoriesDropDownView.swift */,
+				2935D13A2D6720200050430F /* TagInputView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2935D1332D66A96D0050430F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2935D1292D667C200050430F /* AddFoodViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2935D1342D66A97B0050430F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2935D1232D6644610050430F /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2935D1352D66A9850050430F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2935D0F22D6602CC0050430F /* HomeViewController.swift */,
+				2935D0F82D66039F0050430F /* HomeView.swift */,
+				2935D10D2D6624E10050430F /* FoodCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2935D13C2D672AFF0050430F /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				2935D0F62D6603290050430F /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		2935D13D2D672B0B0050430F /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				2935D0FA2D6609FD0050430F /* GeneratorViewController.swift */,
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+		2935D13E2D672B150050430F /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				2935D0FE2D660A410050430F /* FavoriteViewController.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		2935D13F2D672B1F0050430F /* Planner */ = {
+			isa = PBXGroup;
+			children = (
+				2935D0FC2D660A160050430F /* PlannerViewController.swift */,
+			);
+			path = Planner;
+			sourceTree = "<group>";
+		};
+		2935D1422D67382D0050430F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2935D1432D6738470050430F /* Data+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +329,9 @@
 			dependencies = (
 			);
 			name = VoyatekGroupiOSTask;
+			packageProductDependencies = (
+				2935D12C2D668BB50050430F /* IQKeyboardManagerSwift */,
+			);
 			productName = VoyatekGroupiOSTask;
 			productReference = 2935D0DB2D65FF720050430F /* VoyatekGroupiOSTask.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +360,9 @@
 				Base,
 			);
 			mainGroup = 2935D0D22D65FF720050430F;
+			packageReferences = (
+				2935D12B2D668BB50050430F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 2935D0DC2D65FF720050430F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +390,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2935D1092D660DD80050430F /* NetworkManager.swift in Sources */,
+				2935D0FD2D660A160050430F /* PlannerViewController.swift in Sources */,
+				2935D0F52D6602D70050430F /* AddFoodViewController.swift in Sources */,
+				2935D1102D6625520050430F /* FetchFoodResponse.swift in Sources */,
+				2935D12A2D667C200050430F /* AddFoodViewModel.swift in Sources */,
+				2935D0F92D66039F0050430F /* HomeView.swift in Sources */,
+				2935D13B2D6720200050430F /* TagInputView.swift in Sources */,
+				2935D1242D6644610050430F /* HomeViewModel.swift in Sources */,
+				2935D10B2D660EA10050430F /* AppError.swift in Sources */,
+				2935D12F2D66A8ED0050430F /* AddFoodView.swift in Sources */,
+				2935D0F72D6603290050430F /* DashboardViewController.swift in Sources */,
+				2935D1182D6640670050430F /* NotificationsBell.swift in Sources */,
+				2935D1162D6638E40050430F /* BaseViewController.swift in Sources */,
+				2935D1212D6643D00050430F /* FoodServiceImpl.swift in Sources */,
+				2935D1282D6675EC0050430F /* CategoriesDropDownView.swift in Sources */,
+				2935D0FF2D660A410050430F /* FavoriteViewController.swift in Sources */,
+				2935D1132D6637D60050430F /* BackButton.swift in Sources */,
 				2935D0E32D65FF720050430F /* ViewController.swift in Sources */,
 				2935D0DF2D65FF720050430F /* AppDelegate.swift in Sources */,
+				2935D11F2D6643670050430F /* FoodService.swift in Sources */,
+				2935D10E2D6624E10050430F /* FoodCell.swift in Sources */,
+				2935D1442D6738470050430F /* Data+Ext.swift in Sources */,
 				2935D0E12D65FF720050430F /* SceneDelegate.swift in Sources */,
+				2935D11C2D6642C40050430F /* URLs.swift in Sources */,
+				2935D1262D6662D30050430F /* PaddedTextField.swift in Sources */,
+				2935D11A2D6641000050430F /* DisplayPicture.swift in Sources */,
+				2935D1462D6748D60050430F /* CreateFoodResponse.swift in Sources */,
+				2935D1062D660D450050430F /* FetchCategoriesResponse.swift in Sources */,
+				2935D0FB2D6609FD0050430F /* GeneratorViewController.swift in Sources */,
+				2935D1412D672F560050430F /* CreateFoodRequest.swift in Sources */,
+				2935D0F32D6602CC0050430F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +575,8 @@
 				DEVELOPMENT_TEAM = MBAC55AGH7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VoyatekGroupiOSTask/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera so that you can take pictures of meals";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photos so you can select an image to upload";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,6 +605,8 @@
 				DEVELOPMENT_TEAM = MBAC55AGH7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VoyatekGroupiOSTask/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera so that you can take pictures of meals";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photos so you can select an image to upload";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -363,6 +647,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2935D12B2D668BB50050430F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2935D12C2D668BB50050430F /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2935D12B2D668BB50050430F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2935D0D32D65FF720050430F /* Project object */;
 }

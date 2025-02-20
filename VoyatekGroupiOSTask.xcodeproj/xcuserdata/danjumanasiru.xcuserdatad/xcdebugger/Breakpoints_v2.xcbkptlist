@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E6F577F1-81F5-4DAC-B53C-AD5BB2CB63DC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A39E8BB-4A92-4B17-91A6-0DFBA35DCCB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VoyatekGroupiOSTask/Core/Presentation/Add/ViewModel/AddFoodViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "createFood()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4A39E8BB-4A92-4B17-91A6-0DFBA35DCCB3 - 602840df78589ea2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in VoyatekGroupiOSTask.AddFoodViewModel.createFood() -&gt; ()"
+                  moduleName = "VoyatekGroupiOSTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danjumanasiru/Projects/VoyatekGroupiOSTask/VoyatekGroupiOSTask/Core/Presentation/Add/ViewModel/AddFoodViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "4A39E8BB-4A92-4B17-91A6-0DFBA35DCCB3 - 602840df78589d41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in VoyatekGroupiOSTask.AddFoodViewModel.createFood() -&gt; ()"
+                  moduleName = "VoyatekGroupiOSTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danjumanasiru/Projects/VoyatekGroupiOSTask/VoyatekGroupiOSTask/Core/Presentation/Add/ViewModel/AddFoodViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "627ABFB8-4937-4AD8-8133-10AA8F02FF9C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VoyatekGroupiOSTask/Core/Presentation/Add/Views/AddFoodViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "getTags(tags:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "627ABFB8-4937-4AD8-8133-10AA8F02FF9C - a35af8abdf7bf25d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VoyatekGroupiOSTask.AddFoodViewController.createFood() -&gt; ()"
+                  moduleName = "VoyatekGroupiOSTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danjumanasiru/Projects/VoyatekGroupiOSTask/VoyatekGroupiOSTask/Core/Presentation/Add/Views/AddFoodViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "627ABFB8-4937-4AD8-8133-10AA8F02FF9C - ae794d55b83679e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VoyatekGroupiOSTask.AddFoodViewController.getTags(tags: Swift.Array&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "VoyatekGroupiOSTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danjumanasiru/Projects/VoyatekGroupiOSTask/VoyatekGroupiOSTask/Core/Presentation/Add/Views/AddFoodViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
