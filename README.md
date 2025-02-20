@@ -1,6 +1,10 @@
 Here's a video of the application
 
-https://github.com/user-attachments/assets/f1c0abce-ee49-4152-91bd-0c99145b5e03
+
+
+https://github.com/user-attachments/assets/e7e34745-d930-48ef-b157-cef73dddc49b
+
+
 
 I used IQKeyboardManager to handle dismissing of the keyboard, because keyboards don't dismiss automatically by default in iOS.
 
